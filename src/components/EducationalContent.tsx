@@ -52,8 +52,15 @@ export const EducationalContent: React.FC = () => {
               <div className="step-number" aria-hidden="true">04</div>
               <h3 className="step-title">Interpret Results &amp; Take Action</h3>
               <p className="step-text">
-                Review your dog&apos;s estimated ideal weight target, weight deviation percentage, and
-                breed comparisons. If the result indicates a score below 4 or above 6, copy or print the
+                Review your dog&apos;s estimated ideal weight target,{' '}
+                <a
+                  href="https://calculee.io/standard-deviation-calculator.html"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  weight deviation percentage
+                </a>
+                , and breed comparisons. If the result indicates a score below 4 or above 6, copy or print the
                 summary and review it with your veterinarian during your next checkup.
               </p>
             </div>

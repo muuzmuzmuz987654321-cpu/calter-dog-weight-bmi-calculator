@@ -1136,6 +1136,16 @@ ul, ol {
   line-height: 1.55;
   margin: 0;
 }
+.step-text a {
+  color: var(--primary-700);
+  font-weight: 500;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  transition: color 0.15s ease;
+}
+.step-text a:hover {
+  color: var(--primary-600);
+}
 
 /* Content Prose Grid */
 .content-prose-grid {
